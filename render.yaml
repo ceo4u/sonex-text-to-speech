@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: sonex-tts-v2
+
+    plan: free
+    region: Singapore (Southeast Asia)
+    env: python
+    build:
+      dockerfile: Dockerfile
+    envVars:
+      - key: NbSNS2JrkqgG5qc375qwUXTb4kdx3fYKRJw7UUXaiBc
+        generateValue: true
+      - key: ALLOWED_ORIGINS
+        value: "https://preview--signoasis.lovable.app/"
+      - key: TTS_MODEL 
+        value: "tts_models/en/ljspeech/tacotron2-DDC_ph"
