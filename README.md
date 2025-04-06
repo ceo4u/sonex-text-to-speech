@@ -36,7 +36,7 @@ Configurable rendering via render.yaml.
 
 🚀 Quick Start-
 
-pip install -r requirements.txt
+pip install -r requirements.txt   ,
 python tts_app.py
 
 You can also test directly using:-
@@ -47,5 +47,5 @@ python direct_tts.py
 📦 Docker Support-
 Build and run the app using Docker:-
 
-docker build -t tts-app .
+docker build -t tts-app .   ,
 docker run -v $(pwd):/app tts-app
