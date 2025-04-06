@@ -26,21 +26,17 @@ This project is a lightweight Text-to-Speech (TTS) application built in Python. 
 pip install -r requirements.txt
 
 2. Run the Main TTS Application
-bash
-Copy
-Edit
+
 python tts_app.py
+
 🔹 3. Test with Alternate Method
-bash
-Copy
-Edit
+
 python direct_tts.py
+
 📦 Docker Support
 Run the app inside a Docker container for easy deployment:
 
-bash
-Copy
-Edit
+
 docker build -t tts-app .
 docker run -v $(pwd):/app tts-app
 ⚠️ Ensure Docker is installed and running on your system.
