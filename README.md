@@ -1,4 +1,4 @@
-🗣️ Text-to-Speech (TTS) Python Application
+🗣️ Text-to-Speech (TTS) Python Application-
 This project is a lightweight Text-to-Speech (TTS) application built in Python, capable of converting text input into human-like speech. It includes utilities for testing, rendering outputs, and generating audio files (.wav) through various TTS implementations.
 
 📁 Project Structure-
@@ -22,7 +22,7 @@ Dockerfile – Enables containerized deployment using Docker for easy setup and 
 
 LICENSE – License details for usage and distribution.
 
-🔧 Features
+🔧 Features-
 Convert custom text input into .wav audio files.
 
 Easy testing and debugging using sample scripts.
