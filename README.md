@@ -1,11 +1,8 @@
-🗣️ Text-to-Speech (TTS) Python Application-
-This project is a lightweight Text-to-Speech (TTS) application built in Python, capable of converting text input into human-like speech. It includes utilities for testing, rendering outputs, and generating audio files (.wav) through various TTS implementations.
+🗣️ Text-to-Speech (TTS) Python Application- This project is a lightweight Text-to-Speech (TTS) application built in Python, capable of converting text input into human-like speech. It includes utilities for testing, rendering outputs, and generating audio files (.wav) through various TTS implementations.
 
+check the audio file output in file - direct_test.wav , final.wav , output.wav after clicking on View raw.
 
-check the audio file output in file - direct_test.wav , final.wav , output.wav  after clicking on View raw.
-
-📁 Project Structure-
-tts_app.py – Main application logic to handle text-to-speech conversion.
+📁 Project Structure- tts_app.py – Main application logic to handle text-to-speech conversion.
 
 test_tts.py – Unit tests or sample scripts to test the core functionality.
 
@@ -25,8 +22,7 @@ Dockerfile – Enables containerized deployment using Docker for easy setup and 
 
 LICENSE – License details for usage and distribution.
 
-🔧 Features-
-Convert custom text input into .wav audio files.
+🔧 Features- Convert custom text input into .wav audio files.
 
 Easy testing and debugging using sample scripts.
 
@@ -36,16 +32,12 @@ Configurable rendering via render.yaml.
 
 🚀 Quick Start-
 
-pip install -r requirements.txt   ,
-python tts_app.py
+pip install -r requirements.txt , python tts_app.py
 
 You can also test directly using:-
 
 python direct_tts.py
 
+📦 Docker Support- Build and run the app using Docker:-
 
-📦 Docker Support-
-Build and run the app using Docker:-
-
-docker build -t tts-app .   ,
-docker run -v $(pwd):/app tts-app
+docker build -t tts-app . , docker run -v $(pwd):/app tts-app
